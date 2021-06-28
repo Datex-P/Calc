@@ -1,0 +1,32 @@
+.greyButtonStyling {
+  display: grid;
+  grid-template-columns: 31px 31px 31px 31px;
+  grid-template-rows: auto;
+}
+
+
+.stylingForButtons {
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius: 5px;
+width: 25px;
+height: 25px; 
+margin-bottom: 5px;
+background: lightgrey;
+}
+
+.display {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px black solid;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px 5px 2px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
