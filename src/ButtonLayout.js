@@ -51,14 +51,7 @@ function ButtonFields({ idx }) {
   
     if (idx === "=") {
 
-//       if (Boolean(Number(displayValue[(displayValue.length-1)])) === false
-//       && Boolean(Number(displayValue[(displayValue.length-1)])) !== '(' 
-//       && Boolean(Number(displayValue[(displayValue.length-1)])) !== ')' 
-//       ) 
-//       {
-        
-//         setDisplayValue('wrong input')} //when last character is not a number show false
-//         else {
+
       setDisplayValue(
  eval(
           displayValue              //replace every special character that is shown on the display
